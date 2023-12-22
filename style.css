@@ -1,0 +1,31 @@
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+     background-color: aqua;
+}
+.mole{
+    background-image: url(assets/2c0afc1270cd7f9ff0f4262966902eab.png);
+    background-repeat: no-repeat;
+    background-position:  40px;
+    background-size: 60%;
+    
+}
+.body{
+    padding-left: 30%;
+    color: cornflowerblue;
+}
+.sorecard{
+    display: flex;
+    gap: 25px;
+}
+.hit{
+    position: relative;
+    left: 125px;
+}
